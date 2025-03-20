@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class a {
+public enum TemperatureScale {
+    KELVIN,
+    FAHRENHEIT,
+    CELSIUS
 }
+

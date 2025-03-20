@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public interface Weather {
+    static void fromJson(String json) {
 
-public class Weather {
+    }
+
+    double getTemperature(TemperatureScale scale);
+    String getCondition();
 }
+
